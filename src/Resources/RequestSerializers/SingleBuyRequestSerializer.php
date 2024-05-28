@@ -1,9 +1,9 @@
 <?php
 
-namespace SebaPastore\BancardPHP\Resources\Serializers;
+namespace SebaPastore\BancardPHP\Resources\RequestSerializers;
 
 use SebaPastore\BancardPHP\Contracts\KeyManagerContract;
-use SebaPastore\BancardPHP\Resources\DTOs\SingleBuyDTO;
+use SebaPastore\BancardPHP\DTOs\SingleBuyDTO;
 use SebaPastore\BancardPHP\Resources\Formatters\SingleBuyAmountFormatter;
 use SebaPastore\BancardPHP\Resources\TokenGenerators\SingleBuyTokenGenerator;
 

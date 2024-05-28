@@ -11,10 +11,8 @@ class Client implements ClientContract
 {
     public function __construct(
         private readonly HttpClientContract $httpClient,
-        private readonly KeyManagerContract $keyManager
-    )
-    {
-    }
+        private readonly KeyManagerContract $keyManager,
+    ){}
 
     public function singleBuy(): SingleBuy
     {

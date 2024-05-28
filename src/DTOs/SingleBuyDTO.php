@@ -1,6 +1,6 @@
 <?php
 
-namespace SebaPastore\BancardPHP\Resources\DTOs;
+namespace SebaPastore\BancardPHP\DTOs;
 
 class SingleBuyDTO
 {

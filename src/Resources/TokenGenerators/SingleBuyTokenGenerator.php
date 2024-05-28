@@ -3,7 +3,7 @@
 namespace SebaPastore\BancardPHP\Resources\TokenGenerators;
 
 use SebaPastore\BancardPHP\Contracts\KeyManagerContract;
-use SebaPastore\BancardPHP\Resources\DTOs\SingleBuyDTO;
+use SebaPastore\BancardPHP\DTOs\SingleBuyDTO;
 use SebaPastore\BancardPHP\Resources\Formatters\SingleBuyAmountFormatter;
 
 class SingleBuyTokenGenerator
